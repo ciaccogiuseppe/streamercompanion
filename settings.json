@@ -1,0 +1,230 @@
+{
+  "ClientId": "---",
+  "ClientSecret": "---",
+  "TwitchChannel": "---",
+  "TwitchOAUTH": "---",
+  "TwitchBotChannel": "---",
+  "TwitchBotOAUTH": "",
+  "ClientOAuth": "",
+  "UseChatbot": false,
+  "CurrentMascot": "---",
+  "AlignMascot": "left",
+  "HostMessage": "is now hosting you.",
+  "AutohostMessage": "is auto hosting you",
+  "FollowMessage": "Thank you so much for the follow {user}!",
+  "MinBits": 0,
+  "AutoShoutout": false,
+  "AutoShoutoutTime": 10,
+  "ShoutoutAccess": "mod",
+  "GlobalVolume": 0.2,
+  "Styles": {
+    "BackgroundColor": "#FFFFFF",
+    "BorderColor": "#37628C",
+    "BorderWidth": 5,
+    "BorderRadius": 20,
+    "BorderStrokeColor": "#6ABDB5",
+    "TextFontFamily": "Arial",
+    "TextSize": 29,
+    "TextWeight": 800,
+    "TextColor": "#000000",
+    "HighlightTextSize": 31,
+    "HighlightTextSpacing": 0,
+    "HighlightTextColor": "#37628C",
+    "HighlightTextStrokeColor": "#FFFFFF",
+    "HighlightTextShadowColor": "#FFFFFF",
+    "HighlightTextShadowOffset": 0
+  },
+  "Activities": {
+    "Game": [
+      " and they were last playing {activity}"
+    ],
+    "Art": [
+      " and they were last streaming Art"
+    ],
+    "Makers and Crafting": [
+      " and they were last streaming Makers and Crafting"
+    ],
+    "Food & Drink": [
+      " and they were last streaming Food & Drink"
+    ],
+    "Music & Performing Arts": [
+      " and they were last streaming Music & Performing Arts"
+    ],
+    "Beauty & Body Art": [
+      " and they were last streaming Beauty & Body Art"
+    ],
+    "Science & Technology": [
+      " and they were last streaming Science & Technology activities"
+    ],
+    "Just Chatting": [
+      " and they were last chatting"
+    ],
+    "Travel & Outdoors": [
+      " and they were last streaming Travel & Outdoors activities"
+    ],
+    "Sports & Fitness": [
+      " and they were last streaming Sports & Fitness activities"
+    ],
+    "Tabletop RPGs": [
+      " and they were last playing IRL Tabletop RPG"
+    ],
+    "Special Events": [
+      " and they were last streaming a Special Event"
+    ],
+    "Talk Shows & Podcasts": [
+      " and they were last streaming a Talk Show or Podcast"
+    ],
+    "ASMR": [
+      " and they were last streaming ASMR"
+    ]
+  },
+  "Enabled": {
+    "new_chatter": false,
+    "greet": true,
+    "follow": true,
+    "raid": true,
+    "host": true,
+    "autohost": true,
+    "sub": true,
+    "resub": true,
+    "subgift": true,
+    "anonsubgift": true,
+    "bits": true,
+    "lurk": true,
+    "shoutout": true
+  },
+  "Commands": {
+    "!test": {
+      "Image": "",
+      "Script": "",
+      "Access": "sub",
+      "ViewerOnce": false,
+      "ViewerTimeout": 0,
+      "GlobalTimeout": 0,
+      "Enabled": true,
+      "Aliases": [],
+      "Hotkey": []
+    },
+
+  },
+  "Messages": {
+    "new_chatter": [
+      "Oh? {sender} is new here. Welcome!!"
+    ],
+    "follow": [
+      "Thank you so much for the follow! ---, {sender}!"
+    ],
+    "sub": [
+      "[Hello;Hi;Hey] {sender}, ---!"
+    ],
+    "resub": [
+      "[Hello;Hi;Hey] {sender}, thank you for being our best friend for {months} months!"
+    ],
+    "subgift": [
+      "Eyo {sender}! Thank you for gifting a sub to {recipient}"
+    ],
+    "bits": [
+      "{sender} just cheered {bits} bits!"
+    ],
+    "raid": [
+      "Oh? {sender} ---"
+    ],
+    "host": [
+      "--- {sender}?? Thank you for the support!"
+    ],
+    "greet": [
+      "{sender} is here! Thank you for coming!",
+      "[Hello;Hi;Hey] {sender}! Thank you for coming!"
+    ],
+    "lurk": [
+      "Eyo {sender}! Test message 1",
+      "Eyo {sender}! Test message 2"
+    ],
+    "unlurk": [
+      "Welcome back {sender}!"
+    ],
+    "shoutout": [
+      "Please checkout {recipient}"
+    ],
+    "sub_prime": [
+      "Hey {sender}, ---!"
+    ],
+    "sub_tier1": [
+      "Hey {sender}, ---!"
+    ],
+    "sub_tier2": [
+      "Hey {sender}, ---!"
+    ],
+    "sub_tier3": [
+      "Hey {sender}, ---!"
+    ],
+    "test": [
+      "Test message"
+    ]
+  },
+  "Bots": [
+    "streamlabs",
+    "streamelements",
+    "soundalerts"
+  ],
+  "ScheduledMessages": [],
+  "CustomBits": [
+    {
+      "Name": "bits",
+      "From": 0,
+      "To": 99999
+    }
+  ],
+  "CustomSubs": [
+    {
+      "Name": "sub_prime",
+      "From": 0,
+      "To": 9999,
+      "Tier": "prime"
+    },
+    {
+      "Name": "sub_tier1",
+      "From": 0,
+      "To": 9999,
+      "Tier": "1"
+    },
+    {
+      "Name": "sub_tier2",
+      "From": 0,
+      "To": 9999,
+      "Tier": "2"
+    },
+    {
+      "Name": "sub_tier3",
+      "From": 0,
+      "To": 9999,
+      "Tier": "3"
+    },
+    {
+      "Name": "sub12",
+      "From": 12,
+      "To": 12,
+      "Tier": ""
+    },
+    {
+      "Name": "sub24",
+      "From": 24,
+      "To": 24,
+      "Tier": ""
+    },
+    {
+      "Name": "sub36",
+      "From": 36,
+      "To": 36,
+      "Tier": ""
+    },
+    {
+      "Name": "sub48",
+      "From": 48,
+      "To": 48,
+      "Tier": ""
+    }
+  ],
+  "CustomRewards": null,
+  "Watchdog": []
+}
